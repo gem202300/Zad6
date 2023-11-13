@@ -13,7 +13,7 @@ public final class Product {
         this.price = price;
         this.category = category;
         this.currency = currency;
-        validateData(name, price);
+        validateData(name, price);//
     }
 
     public static Product createProduct(String name, double price, Category category, Currency currency) {
