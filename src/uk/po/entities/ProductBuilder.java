@@ -2,7 +2,7 @@ package uk.po.entities;
 
 import java.util.Currency;
 
-public class ProductBuilder {
+public class ProductBuilder {//
     private String name;
     private double price;
     private Category category;
